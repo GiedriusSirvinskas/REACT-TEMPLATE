@@ -1,0 +1,75 @@
+.header {
+  background: url("./images/bg-header-desktop.svg");
+  height: 156px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.headerBg {
+  z-index: 2;
+  background-color: #00aeff;
+}
+
+.text-white {
+  margin-left: 30px;
+}
+
+.card {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cardInfo p {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.cardPosted {
+  color: grey;
+}
+
+.cardLocation {
+  color: grey;
+}
+
+.cardContract {
+  color: grey;
+}
+
+.cardName {
+  color: #00aeff;
+}
+
+.cardStatus {
+  color: #fff;
+  background-color: #00aeff;
+  border-radius: 15px;
+  height: 12px;
+  line-height: 0px;
+  padding: 8px;
+}
+
+.cardFeatured {
+  color: #fff;
+  background-color: black;
+  border-radius: 15px;
+  height: 12px;
+  line-height: 0px;
+  padding: 8px;
+}
+
+.cardProfession {
+  font-weight: 800;
+}
